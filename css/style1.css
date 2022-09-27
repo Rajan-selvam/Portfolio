@@ -112,6 +112,7 @@ header .user:hover img{
 
 header .user .name{
     font-size: 3.5rem;
+    font-family: 'Brush Script MT', cursive;
 }
 
 header .user .post{
@@ -444,6 +445,13 @@ header .navbar ul li a:hover{
     border-left: .2rem solid var(--color);
 }
 
+.mail_id {
+    color: black;
+    text-transform: lowercase;
+}
+.mail_id:hover {
+    text-decoration: underline;
+}
 
 
 
@@ -517,6 +525,9 @@ header .navbar ul li a:hover{
     }
 
     .profile .box-container .box{
+        width: 100%;
+    }
+    .bar{
         width: 100%;
     }
 
