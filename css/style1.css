@@ -403,6 +403,7 @@ header .navbar ul li a:hover{
     flex-wrap: wrap;
     padding: 2rem 0;
     margin-top: 5vh;
+    margin-bottom: 15vh
 }
 
 .about .box-container ul{
@@ -412,15 +413,13 @@ header .navbar ul li a:hover{
     overflow: hidden;
     cursor: pointer;
     padding-right: 2vh;
-    min-height: 20vh;
     text-decoration: none;
 }
 .about .box-container .box ul li {
     position: relative;
     display: inline-block;
-    padding-right: 3rem;
-    /* text-decoration-line: underline;
-    text-decoration-style: dashed; */
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .about .box-container .box1 ul li {
     position: relative;
@@ -433,7 +432,7 @@ header .navbar ul li a:hover{
     flex: auto;
 }
 .about .box-container .box1 ul li .bar{
-    padding-left: 1rem;
+    padding-left: 10px;
 }
 .about .box-container .box ul li span{
 
@@ -442,6 +441,7 @@ header .navbar ul li a:hover{
     font-size: 2rem;
 }
 .bar{
+    padding-left: 10px;
     border-left: .2rem solid var(--color);
 }
 
@@ -452,9 +452,13 @@ header .navbar ul li a:hover{
 .mail_id:hover {
     text-decoration: underline;
 }
-
-
-
+.inline li{
+    display: inline;
+    float: left;
+}
+.profile .box-container .box ul .tooltip i {
+    padding-right: 1rem;
+}
 
 
 
@@ -529,6 +533,27 @@ header .navbar ul li a:hover{
     }
     .bar{
         width: 100%;
+        border-left: 0;
+    }
+    .about .box-container .box1 ul li{
+        width: 100%;
+        text-align: center;
+    }
+    .about .box-container .box ul li {
+        display: block;
+        line-height: 6vh;
+        text-align: center;
+    }
+    .profile .box-container .box ul .tooltip {
+        display: block; 
+        justify-content: center;
+        text-align: center;
+        line-height: 3ch;
+    }
+    .profile .box-container .box .profile_link li {
+        display: block; 
+        justify-content: center;
+        text-align: center;
     }
 
 }
