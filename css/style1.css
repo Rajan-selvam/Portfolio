@@ -237,13 +237,12 @@ header .navbar ul li a:hover{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 1rem 0;
-    padding-left: 3rem;
+    padding: 1rem 3rem;
     margin-top: 5vh;
 }
 
 .education .box-container .box{
-    width: 27rem;
+    width: 35rem;
     margin: 4rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid var(--color);
@@ -282,15 +281,14 @@ header .navbar ul li a:hover{
 .work_experience .box-container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    padding: 1rem 0;
-    padding-left: 3rem;
+    padding: 1rem 3rem;
     margin-top: 5vh;
 }
 
 .work_experience .box-container .box{
-    width: 27rem;
+    width: 35rem;
     margin: 4rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid var(--color);
@@ -423,7 +421,7 @@ header .navbar ul li a:hover{
 }
 .about .box-container .box1 ul li {
     position: relative;
-    padding: 1vh;
+    padding: 1vh 2vh;
     flex: auto;
     justify-content: center;
 }
@@ -441,7 +439,7 @@ header .navbar ul li a:hover{
     font-size: 2rem;
 }
 .bar{
-    padding-left: 10px;
+    padding: 0 20px;
     border-left: .2rem solid var(--color);
 }
 
